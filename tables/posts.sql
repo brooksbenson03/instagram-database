@@ -7,4 +7,4 @@ CREATE TABLE posts(
   lat REAL CHECK(lat IS NULL OR (-90 <= lat AND lat <= 90)),
   lng REAL CHECK(lng IS NULL OR (-180 <= lng AND lng <= 180)),
   user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE
-)
+);

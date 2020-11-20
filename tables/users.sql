@@ -5,7 +5,7 @@ CREATE TABLE users (
   username VARCHAR(30) NOT NULL,
   bio VARCHAR(400),
   avatar VARCHAR(200),
-  phone VARCHAR(25) NOT NULL,
+  phone VARCHAR(25),
   email VARCHAR(40),
   password VARCHAR(50),
   status VARCHAR(15),
